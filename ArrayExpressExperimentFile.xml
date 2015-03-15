@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<experiments version="1.2" revision="100915" total="1"
+	total-samples="11" total-assays="11">
+	<experiment>
+		<species>Homo sapiens</species>
+		<rawdatafiles available="true" />
+		<processeddatafiles available="true" />
+		<sampleattribute>
+			<category>age</category>
+			<value>18 week</value>
+			<value>19 week</value>
+			<value>19.5 week</value>
+			<value>20.5 week</value>
+			<value>21 week</value>
+			<value>23 week</value>
+			<value>25 week</value>
+			<value>25.5 week</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>biosource type</category>
+			<value>frozen_sample</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>developmental stage</category>
+			<value>fetus</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>disease state</category>
+			<value>normal</value>
+			<value>thanatophoric dysplasia</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>Organism</category>
+			<value>Homo sapiens</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>organism part</category>
+			<value>cartilage</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>sex</category>
+			<value>female</value>
+			<value>male</value>
+			<value>unknown sex</value>
+		</sampleattribute>
+		<sampleattribute>
+			<category>targeted cell type</category>
+			<value>chondrocyte</value>
+		</sampleattribute>
+		<experimentalfactor>
+			<name>disease state</name>
+			<value>normal</value>
+			<value>thanatophoric dysplasia</value>
+		</experimentalfactor>
+		<miamescores>
+			<reportersequencescore>1</reportersequencescore>
+			<protocolscore>0</protocolscore>
+			<factorvaluescore>1</factorvaluescore>
+			<derivedbioassaydatascore>1</derivedbioassaydatascore>
+			<measuredbioassaydatascore>1</measuredbioassaydatascore>
+			<overallscore>4</overallscore>
+		</miamescores>
+		<id>241404</id>
+		<accession>E-MEXP-2276</accession>
+		<name>Transcription profiling by array of chondrocytes from human
+			fetuses with thanatophoric dysplasia</name>
+		<experimenttype>transcription profiling by array</experimenttype>
+		<releasedate>2009-12-27</releasedate>
+		<lastupdatedate>2014-05-02</lastupdatedate>
+		<samples>11</samples>
+		<assays>11</assays>
+		<arraydesign>
+			<id>11119</id>
+			<accession>A-AFFY-44</accession>
+			<name>Affymetrix GeneChip Human Genome U133 Plus 2.0 [HG-U133_Plus_2]
+			</name>
+			<count>11</count>
+			<legacy_id>405156763</legacy_id>
+		</arraydesign>
+		<bioassaydatagroup>
+			<id />
+			<name>rawData</name>
+			<bioassaydatacubes>11</bioassaydatacubes>
+			<arraydesignprovider />
+			<dataformat>rawData</dataformat>
+			<bioassays>11</bioassays>
+			<isderived>0</isderived>
+		</bioassaydatagroup>
+		<bioassaydatagroup>
+			<id />
+			<name>scan</name>
+			<bioassaydatacubes>11</bioassaydatacubes>
+			<arraydesignprovider />
+			<dataformat>scan</dataformat>
+			<bioassays>11</bioassays>
+			<isderived>0</isderived>
+		</bioassaydatagroup>
+		<bioassaydatagroup>
+			<id />
+			<name>processedDataMatrix</name>
+			<bioassaydatacubes>1</bioassaydatacubes>
+			<arraydesignprovider />
+			<dataformat>processedDataMatrix</dataformat>
+			<bioassays>1</bioassays>
+			<isderived>1</isderived>
+		</bioassaydatagroup>
+		<bibliography>
+			<accession>19898608</accession>
+			<authors>Schibler L, Gibbs L, Benoist-Lasselin C, Decraene C,
+				Martinovic J, Loget P, Delezoide AL, Gonzales M, Munnich A, Jais JP,
+				Legeai-Mallet L.</authors>
+			<title>New insight on FGFR3-related chondrodysplasias molecular
+				physiopathology revealed by human chondrocyte gene expression
+				profiling</title>
+			<doi>10.1371/journal.pone.0007633</doi>
+			<status>published</status>
+		</bibliography>
+		<provider>
+			<contact>Jean-Philippe JAIS</contact>
+			<role>submitter</role>
+			<email>jais@necker.fr</email>
+		</provider>
+		<experimentdesign>co-expression</experimentdesign>
+		<experimentdesign>disease state</experimentdesign>
+		<experimentdesign>in vitro</experimentdesign>
+		<experimentdesign>reference</experimentdesign>
+		<experimentdesign>replicate</experimentdesign>
+		<description>
+			<id />
+			<text>Endochondral ossification is the process by which the
+				appendicular skeleton, facial bones, vertebrae and medial clavicles
+				are formed and relies on the tight control of chondrocyte
+				maturation. Fibroblast growth factor receptor (FGFR)3 plays a role
+				in bone development and maintenance and belongs to a family of
+				proteins which differ in their ligand affinities and tissue
+				distribution. Activating mutations of the FGFR3 gene lead to
+				craniosynostosis and multiple types of skeletal dysplasia with
+				varying degrees of severity: thanatophoric dysplasia (TD),
+				achondroplasia and hypochondroplasia. Despite progress in the
+				characterization of FGFR3-mediated regulation of cartilage
+				development, many aspects remain unclear. The aim and the novelty of
+				our study was to examine whole gene expression differences occurring
+				in primary human chondrocytes isolated from normal cartilage or
+				pathological cartilage from TD-affected fetuses, using Affymetrix
+				technology. The phenotype of the primary cells was confirmed by the
+				high expression of chondrocytic markers. Altered expression of genes
+				associated with many cellular processes was observed, including cell
+				growth and proliferation, cell cycle, cell adhesion, cell motility,
+				metabolic pathways, signal transduction, cell cycle process and cell
+				signaling. Most of the cell cycle process genes were down-regulated
+				and consisted of genes involved in cell cycle progression, DNA
+				biosynthesis, spindle dynamics and cytokinesis. About eight percent
+				of all modulated genes were found to impact extracellular matrix
+				(ECM) structure and turnover, especially glycosaminoglycan (GAG) and
+				proteoglycan biosynthesis and sulfation. Altogether, the gene
+				expression analyses provide new insight into the consequences of
+				FGFR3 mutations in cell cycle regulation, onset of pre-hypertrophic
+				differentiation and concomitant metabolism changes. Moreover,
+				impaired motility and ECM properties may also provide clues about
+				growth plate disorganization. These results also suggest that many
+				signaling pathways may be directly or indirectly altered by FGFR3
+				and confirm the crucial role of FGFR3 in the control of growth plate
+				development.</text>
+		</description>
+		<protocol>
+			<id>62</id>
+			<accession>Affymetrix:Protocol:Hybridization-Unknown</accession>
+		</protocol>
+		<protocol>
+			<id>77</id>
+			<accession>P-AFFY-2</accession>
+		</protocol>
+		<protocol>
+			<id>640003</id>
+			<accession>P-MTAB-4886</accession>
+		</protocol>
+		<protocol>
+			<id>640004</id>
+			<accession>P-MTAB-4885</accession>
+		</protocol>
+		<protocol>
+			<id>51</id>
+			<accession>P-AFFY-6</accession>
+		</protocol>
+		<protocol>
+			<id>640005</id>
+			<accession>P-MTAB-4887</accession>
+		</protocol>
+		<organism>Homo sapiens</organism>
+		<files><!--This section is deprecated and unsupported.Please use webservice 
+				located at: http://www.ebi.ac.uk/arrayexpress/xml/filesto obtain detailed 
+				information on files available for the experiment.For more information, please 
+				go to: http://www.ebi.ac.uk/arrayexpress/help/programmatic_access.html -->
+			<raw name="E-MEXP-2276.raw.1.zip" count="true" celcount="0" />
+			<fgem name="E-MEXP-2276.processed.1.zip" available="true" />
+			<idf name="E-MEXP-2276.idf.txt" />
+			<sdrf name="E-MEXP-2276.sdrf.txt" />
+		</files>
+	</experiment>
+</experiments>
